@@ -115,4 +115,29 @@ p{
 }
 
 
+@media(min-width: 768px){
+    div{
+        margin-bottom: 40px;
+    }
+
+    .contenedor4-footer{
+        padding: 130px;
+        padding-top: 50px;
+    }
+}
+
+
+
+@media(min-width: 1024px){
+    div{
+        margin-bottom: 40px;
+    }
+
+    .contenedor4-footer{
+        padding: 130px;
+        padding-top: 50px;
+    }
+}
+
+
 

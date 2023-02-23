@@ -195,3 +195,81 @@ h1{
 
 
 
+@media(min-width: 768px){
+    .contenedor1-AcercaDeMi{
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-img-FotoDePerfil{
+        width: 60%;
+    }
+
+    .div-InformacionPersonal{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .div-extra-InformacionPersonal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-FichaPersonal{
+        width: 40%;
+    }
+
+    .p-DescripcionAcercaDeMi{
+        width: 300px;
+    }
+
+    .div-DescripcionTrabajo{
+        padding: 80px;
+    }
+
+    .contenedor4-footer{
+        padding: 130px;
+    }
+}
+
+
+
+
+@media(min-width: 1024px){
+    .contenedor1-AcercaDeMi{
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-img-FotoDePerfil{
+        width: 40%;
+    }
+
+    .div-InformacionPersonal{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .div-extra-InformacionPersonal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-FichaPersonal{
+        width: 25%;
+    }
+
+    .p-DescripcionAcercaDeMi{
+        width: 400px;
+    }
+
+    .div-DescripcionTrabajo{
+        padding: 130px;
+    }
+
+    .contenedor4-footer{
+        padding: 130px;
+    }
+}
