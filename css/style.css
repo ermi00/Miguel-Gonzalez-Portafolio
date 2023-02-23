@@ -37,3 +37,39 @@ a{
 a:hover{
     color: steelblue;
 }
+
+
+/* seccion del main */
+
+.contenedor1-AcercaDeMi{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.div-Presentacion{
+    margin: 20px;
+}
+
+.img-FotoDePerfil{
+    width: 100%;
+}
+
+.contenedor2-InformacionPersonal{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.div-InformacionPersonal{
+    margin: 20px;
+}
+
+.div-FichaPersonal{
+    margin: 40px;
+}
+
+.img-fichapersonal{
+    width: 100%;
+}
+
+
+/* seccion del main */
