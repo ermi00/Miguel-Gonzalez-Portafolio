@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -37,3 +37,82 @@ a{
 a:hover{
     color: steelblue;
 }
+
+
+/* seccion del main */
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    transition: 0.3s;
+    margin: 10px;
+}
+
+/* div:hover{
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+} */
+
+video{
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.h1-titulo-mi-trabajo{
+    font-family: 'Akira Expanded', sans-serif;  
+    margin-bottom: 10px;
+    margin-top: 45px;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: x-large;
+}
+
+
+p{
+    margin-top: 0px;
+}
+
+
+/* seccion del main */
+
+.contenedor4-footer{
+    padding: 50px;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    border-radius: 0px;
+}
+
+.p-footer{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.links{
+    font-size: 16px;
+    color: white;
+}
+
+.p-copyright{
+    margin-top: 20px;
+    font-size: 12px;
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
+
+
+
