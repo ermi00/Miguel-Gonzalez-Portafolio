@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -41,17 +41,47 @@ a:hover{
 
 /* seccion del main */
 
+h1{
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
 .contenedor1-AcercaDeMi{
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
 .div-Presentacion{
-    margin: 20px;
+    padding: 50px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.h1-MiguelGonzalez{  
+    font-size: 30px;  
+    font-style: normal;  
+    margin-bottom: 0px;                                   
 }
 
 .img-FotoDePerfil{
     width: 100%;
+}
+
+.boton-cv{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .contenedor2-InformacionPersonal{
@@ -60,11 +90,13 @@ a:hover{
 }
 
 .div-InformacionPersonal{
-    margin: 20px;
+    padding: 50px;
+    padding-top: 0px;
 }
 
 .div-FichaPersonal{
-    margin: 40px;
+    padding: 50px;
+    padding-top: 0px;
 }
 
 .img-fichapersonal{
@@ -72,7 +104,14 @@ a:hover{
 }
 
 
+.contenedor3-Videos{
+    background-color: black;
+    color: white;
+}
 
+.div-DescripcionTrabajo{
+    padding: 50px;
+}
 
 .div-slider{
     display: flex;
@@ -115,5 +154,34 @@ a:hover{
     box-shadow: 0px 0px 100px;
 }
 
-
 /* seccion del main */
+
+.contenedor4-footer{
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+
+.h1-contacto{
+    
+}
+
+.p-footer{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.links{
+    font-size: 16px;
+    color: white;
+}
+
+.p-copyright{
+    margin-top: 20px;
+    font-size: 12px;
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
+
+
+
