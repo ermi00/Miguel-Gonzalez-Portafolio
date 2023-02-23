@@ -71,6 +71,7 @@ h1{
 }
 
 .boton-cv{
+    transition: 0.3s;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
     padding: 20px;
@@ -82,6 +83,12 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: 400;
+}
+
+.boton-cv:hover{
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+    background-color: white;
+    color: black;
 }
 
 .contenedor2-InformacionPersonal{
@@ -151,7 +158,14 @@ h1{
     padding-left: 50px;
     padding-right: 50px;
     margin-bottom: 30px;
-    box-shadow: 0px 0px 100px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+}
+
+.a-videos-ver-ahora:hover{
+    transition: 0.3s;
+    box-shadow: 0 1px 5px rgb(255, 255, 255);
+    background-color: black;
+    color: white;
 }
 
 /* seccion del main */
@@ -160,10 +174,6 @@ h1{
     padding: 50px;
     background-color: black;
     color: white;
-}
-
-.h1-contacto{
-    
 }
 
 .p-footer{
